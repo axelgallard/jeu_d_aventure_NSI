@@ -1,4 +1,4 @@
-﻿"""
+"""
 Programme réalisé par Gallard Axel 1G9
 """
 import pygame
@@ -170,6 +170,8 @@ def decision(direction,piece):
     if message==(""):
         if memorisePiece==piece:
                 statut_message("Il n'y a pas de pièce dans cette direction")
+        else:
+            print("Je vais aller voir la pièce no ",piece)
     else:
         print("Je vais aller voir la pièce no ",piece)
     return piece
